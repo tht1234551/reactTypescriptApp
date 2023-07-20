@@ -4,7 +4,7 @@
 FROM nginx
 
 # work dir
-WORKDIR /home/blog/client
+WORKDIR /home/front
 
 # work dir 에 build 폴더 생성 : /home/blog/build
 RUN mkdir ./build
