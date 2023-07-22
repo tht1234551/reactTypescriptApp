@@ -23,4 +23,3 @@ EXPOSE 80 443
 
 # container 실행 시 자동으로 실행할 command. nginx 시작
 CMD ["nginx", "-g", "daemon off;"]
-CMD ["echo", "front Dockerfile Success!"]
